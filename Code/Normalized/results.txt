@@ -1,0 +1,65 @@
+Accuracy for lr with tfidf n-gram in 1,3
+              precision    recall  f1-score   support
+
+           0       0.65      0.75      0.70       232
+           1       0.92      0.88      0.90       750
+
+   micro avg       0.85      0.85      0.85       982
+   macro avg       0.79      0.81      0.80       982
+weighted avg       0.86      0.85      0.85       982
+
+Confusion Matrix for lr
+[[173  59]
+ [ 92 658]]
+Accuracy for svm with tfidf n-gram in 1,3
+              precision    recall  f1-score   support
+
+           0       0.70      0.67      0.69       232
+           1       0.90      0.91      0.91       750
+
+   micro avg       0.86      0.86      0.86       982
+   macro avg       0.80      0.79      0.80       982
+weighted avg       0.85      0.86      0.85       982
+
+Confusion Matrix for svm
+[[156  76]
+ [ 66 684]]
+Accuracy for dtc with tfidf n-gram in 1,3
+              precision    recall  f1-score   support
+
+           0       0.54      0.46      0.49       232
+           1       0.84      0.88      0.86       750
+
+   micro avg       0.78      0.78      0.78       982
+   macro avg       0.69      0.67      0.68       982
+weighted avg       0.77      0.78      0.77       982
+
+Confusion Matrix for dtf
+[[106 126]
+ [ 91 659]]
+Accuracy for rf with tfidf n-gram in 1,3
+              precision    recall  f1-score   support
+
+           0       0.69      0.52      0.59       232
+           1       0.86      0.93      0.89       750
+
+   micro avg       0.83      0.83      0.83       982
+   macro avg       0.78      0.72      0.74       982
+weighted avg       0.82      0.83      0.82       982
+
+Confusion Matrix for rf
+[[120 112]
+ [ 53 697]]
+Accuracy for eclf with tfidf n-gram in 1,3
+              precision    recall  f1-score   support
+
+           0       0.67      0.72      0.69       232
+           1       0.91      0.89      0.90       750
+
+   micro avg       0.85      0.85      0.85       982
+   macro avg       0.79      0.80      0.79       982
+weighted avg       0.85      0.85      0.85       982
+
+Confusion Matrix for rf
+[[166  66]
+ [ 83 667]]
